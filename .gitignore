@@ -1,0 +1,21 @@
+DynamicClipImage.xcodeproj/xcuserdata/
+.DS_Store
+DynamicClipImage.xcodeproj/project.xcworkspace/xcuserdata/*.xcuserdatad/
+Pods/Pods.xcodeproj/xcuserdata/*.xcuserdatad/
+DynamicClipImage.xcworkspace/xcuserdata/*.xcuserdatad/
+build/
+DynamicClipImage.xcworkspace/xcshareddata/
+*.swp
+*.xcscheme
+
+# fastlane specific
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+.idea/
+
+#oclint
+checkResults.html
+compile_commands.json
+oclint.html

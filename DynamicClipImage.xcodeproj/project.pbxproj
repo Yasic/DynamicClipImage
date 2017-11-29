@@ -15,6 +15,7 @@
 		74B75D931FCE3A980099AE34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B75D921FCE3A980099AE34 /* main.m */; };
 		74B75D9B1FCE3AFB0099AE34 /* YasicClipPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B75D9A1FCE3AFB0099AE34 /* YasicClipPage.m */; };
 		74B75D9E1FCE42B20099AE34 /* YasicClipAreaLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B75D9D1FCE42B20099AE34 /* YasicClipAreaLayer.m */; };
+		74B75DA11FCE76020099AE34 /* YasicPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B75DA01FCE76020099AE34 /* YasicPanGestureRecognizer.m */; };
 		F41D9148B0A75255E11BAAC5 /* libPods-DynamicClipImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 960A348D495D06C081C775E6 /* libPods-DynamicClipImage.a */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,8 @@
 		74B75D9A1FCE3AFB0099AE34 /* YasicClipPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YasicClipPage.m; sourceTree = "<group>"; };
 		74B75D9C1FCE42B20099AE34 /* YasicClipAreaLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YasicClipAreaLayer.h; sourceTree = "<group>"; };
 		74B75D9D1FCE42B20099AE34 /* YasicClipAreaLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YasicClipAreaLayer.m; sourceTree = "<group>"; };
+		74B75D9F1FCE76020099AE34 /* YasicPanGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YasicPanGestureRecognizer.h; sourceTree = "<group>"; };
+		74B75DA01FCE76020099AE34 /* YasicPanGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YasicPanGestureRecognizer.m; sourceTree = "<group>"; };
 		82EEA682B1E1CB2D22C8F949 /* Pods-DynamicClipImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicClipImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicClipImage/Pods-DynamicClipImage.debug.xcconfig"; sourceTree = "<group>"; };
 		960A348D495D06C081C775E6 /* libPods-DynamicClipImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DynamicClipImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -92,6 +95,8 @@
 				74B75D9A1FCE3AFB0099AE34 /* YasicClipPage.m */,
 				74B75D9C1FCE42B20099AE34 /* YasicClipAreaLayer.h */,
 				74B75D9D1FCE42B20099AE34 /* YasicClipAreaLayer.m */,
+				74B75D9F1FCE76020099AE34 /* YasicPanGestureRecognizer.h */,
+				74B75DA01FCE76020099AE34 /* YasicPanGestureRecognizer.m */,
 			);
 			path = DynamicClipImage;
 			sourceTree = "<group>";
@@ -230,6 +235,7 @@
 				74B75D9B1FCE3AFB0099AE34 /* YasicClipPage.m in Sources */,
 				74B75D9E1FCE42B20099AE34 /* YasicClipAreaLayer.m in Sources */,
 				74B75D881FCE3A980099AE34 /* ViewController.m in Sources */,
+				74B75DA11FCE76020099AE34 /* YasicPanGestureRecognizer.m in Sources */,
 				74B75D931FCE3A980099AE34 /* main.m in Sources */,
 				74B75D851FCE3A980099AE34 /* AppDelegate.m in Sources */,
 			);
@@ -366,8 +372,10 @@
 			baseConfigurationReference = 82EEA682B1E1CB2D22C8F949 /* Pods-DynamicClipImage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GJYQWG36VA;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				INFOPLIST_FILE = DynamicClipImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = developer.technology.DynamicClipImage;
@@ -381,8 +389,10 @@
 			baseConfigurationReference = 2E0701C8B0866E68069C0583 /* Pods-DynamicClipImage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GJYQWG36VA;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				INFOPLIST_FILE = DynamicClipImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = developer.technology.DynamicClipImage;
